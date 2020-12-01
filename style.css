@@ -1,0 +1,34 @@
+.a{
+    /* justify-content: center; */
+    /* background-color: black; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background: linear-gradient(to right, rgb(148, 241, 145),rgb(148,240,52)); */
+    background-color: rgb(46, 44, 44);
+    /* box-shadow: inset 10px 10px 10px 10px  rgb(43, 85, 69); */
+}
+.a1{
+      background-color: rgb(46, 44, 44);
+      height: auto;
+      padding-top: 20rem;
+      padding-bottom: 20rem;
+      width: 50%;
+      border-radius: 100%;
+      /* justify-self: center; */
+      margin-right: auto;
+      margin-left: auto;
+      /* margin-top: 50px; */
+      /* box-shadow: 10px 10px 10px 10px  rgb(13, 14, 13); */
+      box-shadow:  -10px -10px 10px 10px  rgb(13, 14, 13), 10px 10px 10px 10px  rgb(13, 14, 13);
+      /* border: 10px solid black; */
+}
+#hour{
+    height: 270px;
+    width: 0px;
+    border: 1px solid black;
+    /* top: 50%; */
+    left: 50%;
+    transform-origin: top;
+    transform: rotate(180deg);
+    position: absolute;
+}
