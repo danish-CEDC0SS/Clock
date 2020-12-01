@@ -23,9 +23,29 @@
       /* border: 10px solid black; */
 }
 #hour{
-    height: 270px;
+    height: 180px;
     width: 0px;
     border: 1px solid black;
+    /* top: 50%; */
+    left: 50%;
+    transform-origin: top;
+    transform: rotate(180deg);
+    position: absolute;
+}
+#minute{
+    height: 220px;
+    width: 0px;
+    border: 1px solid rgb(207, 23, 23);
+    /* top: 50%; */
+    left: 50%;
+    transform-origin: top;
+    transform: rotate(180deg);
+    position: absolute;
+}
+#sec{
+    height: 270px;
+    width: 0px;
+    border: 1px solid rgb(8, 46, 172);
     /* top: 50%; */
     left: 50%;
     transform-origin: top;
