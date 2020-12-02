@@ -19,7 +19,7 @@
 #hour {
     height: 10.177159590043924vw;
     width: 0.14641288433382138vw;
-    border: 1px solid black;
+    border: 0.07320644216691069vw solid black;
     background-color: black;
     top: 50%;
     left: 50%;
@@ -33,7 +33,7 @@
 #minute {
     height: 13.105417276720353vw;
     width: 0.07320644216691069vw;
-    border: 1px solid rgb(207, 23, 23);
+    border: 0.07320644216691069vw solid rgb(207, 23, 23);
     background-color:rgb(207, 23, 23) ;
     top: 50%;
     left: 50%;
@@ -47,7 +47,7 @@
 #sec {
     height: 16.03367496339678vw;
     width: 0px;
-    border: 1px solid rgb(8, 46, 172);
+    border: 0.07320644216691069vw solid rgb(8, 46, 172);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
