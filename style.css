@@ -1,54 +1,73 @@
-.a{
-    /* justify-content: center; */
-    /* background-color: black; */
-    padding-top: 50px;
-    padding-bottom: 50px;
-    /* background: linear-gradient(to right, rgb(148, 241, 145),rgb(148,240,52)); */
+.a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.a1 {
     background-color: rgb(46, 44, 44);
-    /* box-shadow: inset 10px 10px 10px 10px  rgb(43, 85, 69); */
+    height: 37.26354319180088vw;
+    width: 37.26354319180088vw;
+    border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    box-shadow: -5px -5px 5px 5px rgb(13, 14, 13), 5px 5px 5px 5px rgb(13, 14, 13);
 }
-.a1{
-      background-color: rgb(46, 44, 44);
-      height: auto;
-      padding-top: 20rem;
-      padding-bottom: 20rem;
-      width: 50%;
-      border-radius: 100%;
-      /* justify-self: center; */
-      margin-right: auto;
-      margin-left: auto;
-      /* margin-top: 50px; */
-      /* box-shadow: 10px 10px 10px 10px  rgb(13, 14, 13); */
-      box-shadow:  -10px -10px 10px 10px  rgb(13, 14, 13), 10px 10px 10px 10px  rgb(13, 14, 13);
-      /* border: 10px solid black; */
-}
-#hour{
-    height: 180px;
+
+#hour {
+    height: 10.177159590043924vw;
     width: 0px;
     border: 1px solid black;
-    /* top: 50%; */
+    top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     transform-origin: top;
     transform: rotate(180deg);
     position: absolute;
 }
-#minute{
-    height: 220px;
+
+#minute {
+    height: 13.105417276720353vw;
     width: 0px;
     border: 1px solid rgb(207, 23, 23);
-    /* top: 50%; */
+    top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     transform-origin: top;
     transform: rotate(180deg);
     position: absolute;
 }
-#sec{
-    height: 270px;
+
+#sec {
+    height: 16.03367496339678vw;
     width: 0px;
     border: 1px solid rgb(8, 46, 172);
-    /* top: 50%; */
+    top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     transform-origin: top;
     transform: rotate(180deg);
     position: absolute;
+}
+
+.a112 {
+    font-family: 'poppins', sans-serif;
+    font-size: 40%;
+    font-weight: 900;
+    height: 37.26354319180088vw;
+    width: 37.26354319180088vw;
+    position: absolute;
+}
+
+.point {
+    height: 1vw;
+    width: 1vw;
+    background-color: crimson;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
 }
