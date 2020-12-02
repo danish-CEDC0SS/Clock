@@ -25,6 +25,7 @@
     transform: translate(-50%, -50%);
     transform-origin: top;
     transform: rotate(180deg);
+    z-index: 1000;
     position: absolute;
 }
 
@@ -37,6 +38,7 @@
     transform: translate(-50%, -50%);
     transform-origin: top;
     transform: rotate(180deg);
+    z-index: 900;
     position: absolute;
 }
 
@@ -49,6 +51,7 @@
     transform: translate(-50%, -50%);
     transform-origin: top;
     transform: rotate(180deg);
+    z-index: 800;
     position: absolute;
 }
 
