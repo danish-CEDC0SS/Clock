@@ -4,7 +4,8 @@ function fun1(){
     var m=now.getMinutes();
     var h=now.getHours();
     var s1=s*6+180;
-    var m1=m*6+180;
+    var j=s/60;
+    var m1=(m+j)*6+180;
     var i=m/60;
     if(h>12){
         h=h-12;
