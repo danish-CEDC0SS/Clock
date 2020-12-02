@@ -55,6 +55,7 @@
     transform: rotate(180deg);
     z-index: 800;
     position: absolute;
+    /* transition: all 1s linear; */
 }
 
 .point {
@@ -66,7 +67,7 @@
     left: 50%;
     border-radius: 100%;
     z-index: 10001;
-    transform: translate(-50%, -50%);
+    transform: translate(-35%, -50%);
 }
 
 .n {
