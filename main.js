@@ -3,6 +3,7 @@ function fun1(){
     var s=now.getSeconds();
     var m=now.getMinutes();
     var h=now.getHours();
+    // s=55;
     var s1=s*6+180;
     var j=s/60;
     var m1=(m+j)*6+180;
