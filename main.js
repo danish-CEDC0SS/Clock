@@ -16,6 +16,7 @@ function fun1(){
     y.style.transform="rotate("+m1+"deg)";
     z.style.transform="rotate("+h1+"deg)";
 }
+//Seprate Function is added to improve processor load.
 function fun2(){
     let now=new Date();
     let s=now.getSeconds();
