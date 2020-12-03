@@ -1,5 +1,8 @@
 function fun1(){
     var now=new Date();
+    let g=document.getElementById("digital");
+    let arr=Date().split(" ");
+    g.innerHTML=arr[4];
     var s=now.getSeconds();
     var m=now.getMinutes();
     var h=now.getHours();
@@ -9,9 +12,6 @@ function fun1(){
     if(h>12){
         h=h-12;
     }
-    let g=document.getElementById("digital");
-    let arr=Date().split(" ");
-    g.innerHTML=arr[4];
     var h1=(h+i)*30+180;
     console.log(h1,'ewr');
     var y=document.getElementById("minute");
