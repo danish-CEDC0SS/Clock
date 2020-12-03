@@ -1,8 +1,5 @@
 function fun1(){
     var now=new Date();
-    let g=document.getElementById("digital");
-    let arr=Date().split(" ");
-    g.innerHTML=arr[4];
     var s=now.getSeconds();
     var m=now.getMinutes();
     var h=now.getHours();
@@ -22,6 +19,9 @@ function fun1(){
 //Seprate Function is added to improve processor load.
 function fun2(){
     let now=new Date();
+    let g2=document.getElementById("digital");
+    let arr=Date().split(" ");
+    g2.innerHTML=arr[4];
     let s=now.getSeconds();
     let g=now.getMilliseconds();
     let p= g/1000;
